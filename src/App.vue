@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="pxToRem">这是一个段落</div>
+    <div class="pxToRem am-a">这是一个段落</div>
   </div>
 </template>
 
@@ -21,7 +21,9 @@ export default {
 }
 .pxToRem {
   width: 60px;
-  height: 20px;
   font-size: 16px;
+}
+.am-a {
+  height: 60px;
 }
 </style>
